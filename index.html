@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissors Game</title>
+    <link rel="stylesheet" href="styLe.css">
+</head>
+<body>
+    <header class="header">
+        <img src="images/rps.jpg" alt="Rock Paper Scissors">
+    </header>
+    <h1>Stone Paper Scissors!</h1>
+    <p id="message">This is a best of 5 game</p>
+
+    <p id="result"><strong>Remember:</strong><br><br>Rock beats Scissors <br>
+        Scissors beat Paper <br>Paper beats Rock</p>
+    <br>
+    <p id="game-result"></p>
+
+    <div class="button-container">
+        <div><button class="btn-icn" id="stone" onclick="stone()">🪨</button></div>
+        <div><button class="btn-icn" id="paper" onclick="paper()">📰</button></div>
+        <div><button class="btn-icn" id="scissors" onclick="scissors()">✂</button></div></div>
+        <br>
+        <div class="score-table">
+            <table>
+                <tr>
+                    <th>Your Score</th>
+                    <th>Computer Score</th>
+                </tr>
+                <tr>
+                    <td id="player-score">0</td>
+                    <td id="computer-score">0</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div><button class="btn-icn2" onclick="playagain()">Play again</button></div>
+        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+        <script src="function.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
