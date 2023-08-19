@@ -6,7 +6,9 @@
       justify-content: center;
       height: 100vh;
     }
-
+    h1 {
+        text-align: center;
+    }
     .button-container {
       display: flex;
       justify-content: space-between;
