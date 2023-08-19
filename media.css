@@ -1,5 +1,23 @@
-@media (max-width: 615px) {
-    body{
-        text-align: center;
+@media (max-width: 600px) {
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
     }
-}
+
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .score-table {
+      text-align: center;
+    }
+  }
+
+
+
+
+
